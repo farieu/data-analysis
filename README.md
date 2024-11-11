@@ -15,11 +15,11 @@ Análise exploratória dos dados, gerando visualizações e insights preliminare
 - **Arquivos**: `eda_goodreads.ipynb`, `eda_advanced.ipynb`
 
 ### `SelecaoFeatures` 🔍
-Seleção das features mais relevantes para melhorar o desempenho dos modelos.
+Seleção das features mais relevantes para melhorar o desempenho dos modelos, vide matriz de correlação.
 - **Arquivo**: `PreparacaoModelo.ipynb`
 
 ### `TreinamentoModelo` 🤖
-Treinamento dos modelos preditivos.
+Aplicação de aprendizado de máquina.
 - **Arquivo**: `TreinamentoRegressao.ipynb`
 
 ### `AvaliacaoModeloRL` 🧪
@@ -27,7 +27,7 @@ Avaliação dos modelos treinados e análise de resultados.
 - **Arquivo**: `AvaliacaoModeloRL.ipynb`
 
 ### `Pipeline` 🚀
-Construção do pipeline de execução para automatizar o fluxo de limpeza, seleção de features, treinamento e avaliação.
+Construção do pipeline de execução para automatizar o fluxo.
 - **Arquivo**: `Pipeline.ipynb`
 
 ### `OutrosModelos` 📈
