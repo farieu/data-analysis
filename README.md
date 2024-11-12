@@ -1,35 +1,28 @@
-# 📚 Projeto GoodReads - Análise e Modelagem de Dados
+# 📚 Projeto GoodReads - Aprendizado Supervisionado
 
-Bem-vindo ao repositório do projeto de análise e modelagem de dados do GoodReads! Este projeto visa a exploração, limpeza e modelagem de um dataset de livros para prever a avaliação dos livros com base em suas características.
+Repositório do projeto de análise e modelagem de dados de um dataset do GoodReads, englobando aspectos desde a exploração até implementação de algoritmos de máquina supervisionados para prever se o livro terá uma boa ou má avaliação com base em suas características.
+
+## 🎯 Objetivos do Projeto
+- Utilizar bibliotecas de Data Science (`pandas, numpy, scikit-learn, matplotlib, seaborn`);
+-  Implementação de algoritmos de Machine Learning (`Regressão, RandomForest, ADABoostingRegressor`);
+
+## 🎲 Base GoodReads no Kaggle
+A base de dados que foi utilizada neste projeto pode ser acessada através do [Kaggle](https://www.kaggle.com/datasets/mdhamani/goodreads-books-100k)
+
 
 ## 📂 Estrutura das Branches
+A estruturação do projeto é feita através de branches exclusivas para cada feature, contendo um notebook linkado ao Google Collab, e após o Pull Request, são colocadas na main em pastas individuais para facilitar o entendimento.
 
-Este repositório está organizado em diversas branches, cada uma com seu objetivo específico:
+1. **`LimpezaDataset:`** consiste no trabamento dos dados para garantir que esteja livre de dados ausentes e pronto para análise exploratória.
 
-### `LimpezaDataset` 🧼
-Tratamento dos dados para garantir que o dataset estivesse pronto para análise e modelagem.
-- **Arquivos**: `tratamento_goodreads.ipynb`, `tratamento_goodreads_(sem_imputacao_de_dados).ipynb`
+2. **`AnaliseExploratoria:`** análise inicial dos dados, gerando visualizações e insights preliminares.
 
-### `AnaliseExploratoria` 📊
-Análise exploratória dos dados, gerando visualizações e insights preliminares.
-- **Arquivos**: `eda_goodreads.ipynb`, `eda_advanced.ipynb`
+3. **`SelecaoFeatures:`** plot da matriz de correlação, seleção das características mais relevantes e codificação de variáveis categóricas/númericas para treino de modelos.
 
-### `SelecaoFeatures` 🔍
-Seleção das features mais relevantes para melhorar o desempenho dos modelos, vide matriz de correlação.
-- **Arquivo**: `PreparacaoModelo.ipynb`
+4. **`TreinamentoModelo:`** aplicação do aprendizado supervisionado de Regressão Logística.
 
-### `TreinamentoModelo` 🤖
-Aplicação de aprendizado de máquina.
-- **Arquivo**: `TreinamentoRegressao.ipynb`
+5. **`AvaliacaoModeloRL:`** avaliação do modelo treinado e análise descritiva de resultados.
 
-### `AvaliacaoModeloRL` 🧪
-Avaliação dos modelos treinados e análise de resultados.
-- **Arquivo**: `AvaliacaoModeloRL.ipynb`
+6. **`Pipeline:`** construção de um pipeline para pré-processamento do dataset.
 
-### `Pipeline` 🚀
-Construção do pipeline de execução para automatizar o fluxo.
-- **Arquivo**: `Pipeline.ipynb`
-
-### `OutrosModelos` 📈
-Exploração de outras técnicas de modelagem além da regressão, incluindo Random Forest e ADA Boost.
-- **Arquivos**: `ModelosAdicionais(RandomForest).ipynb`, `ModelosAdicionais(ADABoost).ipynb`
+7. **`OutrosModelos:`** exploração de outras técnicas de aprendizado além da regressão.
